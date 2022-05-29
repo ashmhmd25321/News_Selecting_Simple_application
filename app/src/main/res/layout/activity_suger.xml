@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".suger"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="145dp"
+        android:layout_height="27dp"
+        android:text="Taste Without Sugar"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/image" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="389dp"
+        android:layout_height="272dp"
+        android:layout_marginTop="76dp"
+        android:text="High sugar consumption is a major cause of excess weight gain leading to overweight and obesity. Costly economic and social consequences of overweight and obesity are made manifest in the treatment of cardiovascular diseases, cancer, diabetes, disability, chronic kidney discase, musculoskeletal conditions, and psychosocial problems, among others. In addition, excess weight can lead to reduction in productivity, poor quality of life and shortened life span"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

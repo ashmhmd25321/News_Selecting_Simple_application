@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".srilanka"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="SRI LANKA’S SUCCESS: ENSURING AFFORDABLE ESSENTIAL MEDICINES FOR ALL"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/shdgcngf" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="365dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="48dp"
+        android:text="On 21 October 2016, Sri Lanka transformed the pricing of essential medicines, making drugs more affordable for patients. The Government issued a notice by Extraordinary Gazette setting a price ceiling for 48 essential medicines used to treat noncommunicable diseases (NCDs), such as diabetes, heart disease, high blood pressure, high cholesterol, and other common diseases. Sri Lanka’s pharmaceutical market is estimated to be worth USD $ 400 million per year. The regulation of the pricing of these medicines has an enormous impact on the health of the population. The revised drug price formula introduced in 2016 ensures that essential medicines should be sold below a recommended maximum retail price at all times. Upon issuing the gazette notification, the Hon. Minister of Health, Nutrition and Indigenous Medicine, Dr Rajitha Senaratne said that the prices of certain drugs could be reduced up to 85 % as a result."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Care_Mobile_App</string>
+    <string name="button_1">Local News</string>
+    <string name="button_2">foreign News</string>
+    <string name="button_3">corona news</string>
+    <string name="textView_1">care</string>
+    <string name="button">getting started</string>
+    <string name="textView2">News</string>
+    <string name="textView3">Latest News</string>
+    <string name="textView4">Products</string>
+    <string name="button2">Update</string>
+    <string name="button3">delete</string>
+    <string name="button4">update</string>
+    <string name="button5">delete</string>
+</resources>
